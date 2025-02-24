@@ -4,7 +4,7 @@ import mysql.connector
 from mysql.connector import Error
 
 
-api_key = "0f96f9515ba945611889006560d54509"
+api_key = ""
 lat = int(input("Enter latitude: "))
 lon = int(input("Enter longitude: "))
 url = f"http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={api_key}"
