@@ -4,7 +4,7 @@ import sqlite3
 import mysql.connector
 from mysql.connector import Error
 
-api_key = "3ac3278b91eea6d1f40291bbe6980adb"
+api_key = ""
 city = 'New York'
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
